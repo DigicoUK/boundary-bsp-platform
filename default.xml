@@ -16,7 +16,7 @@
 
   <project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="boundary" revision="pyro" name="boundary-bsp-base" path="sources/base">
+  <project remote="digico" revision="pyro-spitfire-dev" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
