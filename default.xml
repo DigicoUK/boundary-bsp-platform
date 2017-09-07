@@ -24,7 +24,7 @@
   <project remote="freescale" revision="pyro" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="pyro" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="oss" revision="c8774d14caef4b26dee292562fec9540c359c61b" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="spitfire-dev" />
+  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="969f1f80bf255498abbec6886d443670c20a79c8" />
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="pyro" />
 
 </manifest>
