@@ -29,3 +29,22 @@ $: bitbake core-image-minimal
 You can use any directory to host your build.
 
 The source code is checked out at `boundary-bsp/sources`.
+
+== Build the SDK:
+
+[source,console]
+$: repo init -u git://github.com/DigicoUK/boundary-bsp-platform -b pyro-spitfire-dev
+$: repo sync
+$: MACHINE=imx6qsabrelite DISTRO=fslc-framebuffer source setup-environment build
+
+Then edit the `build/conf/local.conf` file and add the following line:
+
+[source,shell]
+PACKAGECONFIG_append_pn-qtbase = " sql-sqlite"
+
+Then build the SDK:
+
+[source,console]
+$: time bitbake meta-toolchain-qt5
+
+(Takes about 5-6 hours on quad core i5 and fast SSD.)
