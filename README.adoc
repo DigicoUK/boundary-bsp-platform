@@ -47,4 +47,4 @@ Then build the SDK:
 [source,console]
 $: time bitbake meta-toolchain-qt5
 
-(Takes about 5-6 hours on quad core i5 and fast SSD.)
+(Takes about 5-6 hours on quad core i5 and fast SSD which needs at least 80GB free space.)
