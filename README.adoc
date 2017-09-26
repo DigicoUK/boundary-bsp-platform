@@ -40,7 +40,7 @@ $: MACHINE=imx6qsabrelite DISTRO=fslc-framebuffer source setup-environment build
 Then edit the `build/conf/local.conf` file and add the following line:
 
 [source,shell]
-PACKAGECONFIG_append_pn-qtbase = " sql-sqlite"
+PACKAGECONFIG_append_pn-qtbase = " sql-sqlite accessibility"
 
 Then build the SDK:
 
