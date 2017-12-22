@@ -9,14 +9,13 @@
   <remote fetch="https://github.com/boundarydevices" name="boundary"/>
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="git://github.com/DigicoUK" name="digico"/>
-  <remote fetch="git://github.com/DigicoUK" name="meta-qt5-repo"/>
 
   <project remote="yocto" revision="ce26a57e04ad65c02087629701d96448a44e73d5" name="poky" path="sources/poky"/>
-  <project remote="digico" revision="pyro-spitfire-dev" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="digico" revision="pyro-spitfire-dev" name="diss-meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="digico" revision="pyro-spitfire-dev" name="boundary-bsp-base" path="sources/base">
+  <project remote="digico" revision="pyro-spitfire-dev" name="diss-boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -24,7 +23,7 @@
   <project remote="freescale" revision="b7ee79e2c60a7af03dd7f55001e93cbfab43c8e5" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="oss" revision="c8774d14caef4b26dee292562fec9540c359c61b" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="meta-qt5-repo" name="meta-qt5" path="sources/meta-qt5" revision="spitfire-dev_qt5.9.2" />
+  <project remote="digico" name="diss-meta-qt5" path="sources/meta-qt5" revision="spitfire-dev_qt5.9.2" />
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="fb9bd92e4173ded438cd05f4c5c7f7d028d29cc7" />
 
 </manifest>
