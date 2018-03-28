@@ -23,7 +23,7 @@
   <project remote="freescale" revision="b7ee79e2c60a7af03dd7f55001e93cbfab43c8e5" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="oss" revision="c8774d14caef4b26dee292562fec9540c359c61b" name="meta-browser" path="sources/meta-browser"/>
-  <project remote="digico" name="diss-meta-qt5" path="sources/meta-qt5" revision="spitfire-dev_qt5.9.2" />
+  <project remote="digico" name="diss-meta-qt5" path="sources/meta-qt5" revision="rocko-spitfire-dev_qt5.9.4" />
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary" revision="fb9bd92e4173ded438cd05f4c5c7f7d028d29cc7" />
 
 </manifest>
