@@ -34,6 +34,7 @@ The source code is checked out at `boundary-bsp/sources`.
 
 [source,console]
 $: cd ~
+$: cd boundary-bsp
 $: repo init -u git://github.com/DigicoUK/diss-boundary-bsp-platform -b pyro-spitfire-dev
 $: repo sync
 $: MACHINE=imx6qsabrelite DISTRO=fslc-framebuffer source setup-environment build
